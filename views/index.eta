@@ -7,6 +7,6 @@
 
 <ul>
 <% it.messages.forEach((message) => { %>
-<li><%= message.sender %>: <%= message.message %></li>
+<li><%= message.sender %> said: "<%= message.message %>"</li>
 <% }); %>
 </ul>
